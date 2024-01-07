@@ -1,0 +1,105 @@
+Screen {
+    layout: grid;
+    grid-size: 2 2;
+    grid-columns: 2fr 6fr;
+    grid-rows: 6fr 1fr;
+    grid-gutter: 0;
+    margin: 0;
+    padding: 0;
+}
+
+Button {
+    text-align: center;
+}
+
+ScrollableContainer {
+    width: 100%;
+}
+
+SelectionList {
+    height: auto;
+    width: 100%;
+}
+
+.box {
+    height: 100%;
+    border: solid lightblue;
+}
+
+#filter_pane {
+    row-span: 2;
+}
+
+#f_top {
+    layout: grid;
+    grid-size: 2 1;
+    grid-columns: 4fr 2fr;
+    height: auto;
+    width: 100%;
+    margin: 0 0 1 0;
+}
+
+#f_input {
+    height: auto;
+}
+
+#f_addbutton {
+    height: auto;
+}
+
+#f_clrbutton {
+    width: 100%;
+    height: auto;
+    align: center middle;
+    margin: 1;
+}
+
+#input_pane {
+    layout: grid;
+    grid-size: 6 0;
+    grid-columns: 1fr;
+    grid-rows: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+#dataBaseContainer {
+    align: center middle;
+}
+
+#i_input_data {
+    column-span: 4;
+}
+
+.canline {
+    layout: grid;
+    grid-size: 12 1;
+    grid-columns: 1fr;
+    width: 100%;
+    height: auto;
+}
+
+.timestamp {
+    column-span: 2;
+}
+
+.canid {
+}
+
+.canlength {
+}
+
+.candata {
+}
+
+.canHeader {
+    background: $primary
+}
+
+.dontdisplay {
+    display: none;
+}
+
+.showdisplay {
+    display: block;
+}
