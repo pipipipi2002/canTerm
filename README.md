@@ -7,7 +7,7 @@ $ conda create --name canTerm python=3.10 -y
 $ conda activate canTerm
 $ pip install -r requirements.txt
 
-$ pip main.py
+$ python main.py
 # or
 $ textual run --dev main.py
 
